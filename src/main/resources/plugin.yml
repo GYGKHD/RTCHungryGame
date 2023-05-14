@@ -1,0 +1,24 @@
+name: HungryGame
+version: '${project.version}'
+main: gygk.hungrygame.HungryGame
+api-version: 1.19
+
+commands:
+  manaitem:
+    description: 1234
+    permission: gygk.manaitem
+  game:
+    description: 1234
+  manamap:
+    description: 1234
+    permission: gygk.manamap
+  adminblock:
+    description: 1234
+    permission: gygk.adminblock
+permissions:
+  gygk.manaitem:
+    default: op
+  gygk.manamap:
+    default: op
+  gygk.adminblock:
+    default: op
